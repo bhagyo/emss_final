@@ -1,0 +1,27 @@
+.AppointmentList-box {
+    width: 800px;
+    height: 620px;
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform:translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70p;
+
+
+  }
+
+  .Scroll {
+    width: 800px;
+    height: 620px;
+    overflow: auto;
+  }
+  .Margin {
+    margin-left: 50px;
+  }
+  .Picture {
+    width: 65px;
+    height:70px;
+  }

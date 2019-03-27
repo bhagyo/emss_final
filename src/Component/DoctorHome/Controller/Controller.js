@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './Controller.css';
 import axios from 'axios'
 
-const APPIONT_URL = 'http://0.0.0.0:8000/api/appointmentcreate'
+const APPIONT_URL = 'http://127.0.0.1:8000/api/appointmentcreate/'
 
 const initiaState = {
 
@@ -161,6 +161,7 @@ class Controller extends Component {
                 <input type="type" size="4"/>
                 <h8 className="ml-5">Filter Time: </h8>
                 <input type="type" size="4"/>
+                 <a href="#" id="survey-btn" onClick={this.SurveyHandlerFunction}>Survey</a>
              </div>
              <div className="announcement">
                 <button className="btn btn-outline-primary">Create Announcement</button>

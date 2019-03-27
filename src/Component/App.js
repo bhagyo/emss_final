@@ -164,8 +164,8 @@ class App extends Component {
       Doctorlogin:false,
       Register: false,
       Doctorregister:false,
-      Username: null,
-      User_id: null,
+      Username: this.state.Username,
+      User_id: this.state.User_id,
       Loginflag: false,
       Doctorlist: true,
       Locationdata: data.location,
@@ -293,7 +293,9 @@ class App extends Component {
      else if(this.state.ViewAppointment){
        output = (
        <AppointmentView
-       doctorID={this.state.ViewAppointment}
+       doctorID = {this.state.ViewAppointment}
+       user = {this.state.Username}
+       user_id = {this.state.User_id}
         />
        )
      }

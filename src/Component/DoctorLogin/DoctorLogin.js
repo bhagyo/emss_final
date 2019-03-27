@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import './DoctorLogin.css';
 import axios from 'axios'
 
-const REGISTER_URL = 'http://0.0.0.0:8000/api/login/'
+const REGISTER_URL = 'http://127.0.0.1:8000/api/doctorlogin/'
 //const REGISTER_URL='https://reqres.in/api/login/'
 
 
